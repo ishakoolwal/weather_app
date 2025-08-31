@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="weather-card">
+        <div class="heading">
+        <h1>Weather App</h1>
+        </div>
+        <div class="input">
+        <input type="text" id="input" class="input" placeholder="Search">
+        <button><i class="fa-solid fa-magnifying-glass align-items-center"></i></button>
+        </div>
+
+        <div id="weather-info" class="animate__animated animate__fadeIn">
+				<h3 id="city-name"></h3>
+				<p id="date"></p>
+				<img id="weather-icon" src="weather-icon.webp" alt="Weather Icon" style="width: 170px; height: 150px;">
+				<p id="temperature"></p>
+				<p id="description"></p>
+				<p id="wind-speed"></p>
+			</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
